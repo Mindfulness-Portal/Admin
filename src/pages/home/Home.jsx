@@ -46,12 +46,12 @@ export default function Home() {
     getStats();
   }, [MONTHS]);
 
-  useEffect(()=>{
-    if(user === null){
-      // navigate("/login");
-      window.location.href = "https://gleeful-pudding-d4f817.netlify.app/login";
-    }
-  },[]);
+  // useEffect(()=>{
+  //   if(user === null){
+  //     // navigate("/login");
+  //     window.location.href = "https://gleeful-pudding-d4f817.netlify.app/login";
+  //   }
+  // },[]);
 
   return (
     <div className="home">
