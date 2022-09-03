@@ -49,7 +49,7 @@ export default function Home() {
   useEffect(()=>{
     if(user === null){
       // navigate("/login");
-      window.location.href = "http://localhost:3001/login";
+      window.location.href = "https://gleeful-pudding-d4f817.netlify.app/login";
     }
   },[]);
 
